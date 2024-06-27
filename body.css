@@ -2882,7 +2882,8 @@ header.single-header {
     height: 28px;
     float: left;
     z-index: 1;
-    margin-left: 0
+    margin-left: 0;
+    padding: 0;
 }
 
 .esa-sponsor .box li {
