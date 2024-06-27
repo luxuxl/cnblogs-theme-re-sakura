@@ -35,7 +35,7 @@
                     author: "Luxury",
                     avatar: 'https://pic.cnblogs.com/avatar/3389865/20240207234337.png',
                     home: 'https://www.cnblogs.com/luxuxl/',
-                    photos: 'https://www.cnblogs.com/luxuxl/gallery/2405086',
+                    photos: 'https://www.cnblogs.com/luxuxl/gallery/2405086.html',
                 },
                 catalog: {
                     enable: true,
