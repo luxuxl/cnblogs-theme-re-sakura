@@ -58,22 +58,43 @@
                 },
                 topImg: {
                     homeTopImg: [
-                        "https://img2018.cnblogs.com/blog/1646268/201908/1646268-20190806172418911-2037584311.jpg",
-                        'https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240620025745_wallhaven-o5762l.webp',
-                        'https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240620025745_wallhaven-m3rm88.webp',
-                        'https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240620025754_0494e945880511ebb6edd017c2d2eca2.webp',
-                        'https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240620025754_cad02a42c44e47bcaed6caf6a0e6344b.webp',
-                        'https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240620025754_792a4b6934fc491b81342206e3192e59.webp',
-                        'https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240620025754_6b522359092f4f48a1168e482085ce7a.webp',
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240620025745_wallhaven-o5762l.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240620025745_wallhaven-m3rm88.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240620025754_0494e945880511ebb6edd017c2d2eca2.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240620025754_cad02a42c44e47bcaed6caf6a0e6344b.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240620025754_792a4b6934fc491b81342206e3192e59.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240620025754_6b522359092f4f48a1168e482085ce7a.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240620030045_headerBackground.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240625135538_wallpaper.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240627151709_wp_47.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240627151709_wp_42.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240627151709_wp_45.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240627151709_wp_44.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240627151709_wp_41.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240627151709_wp_48.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240627151709_wp_39.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240627151709_wp_43.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240627151709_wp_46.webp",
                     ],
                     notHomeTopImg: [
-                        "https://img2018.cnblogs.com/blog/1646268/201908/1646268-20190806172418911-2037584311.jpg",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240627151709_wp_40.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240627151721_wp_30.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240627151722_wp_36.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240627151721_wp_38.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240627151721_wp_29.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240627151722_wp_34.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240627151722_wp_32.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240627151721_wp_33.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240627151721_wp_37.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240627151723_wp_35.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240627151722_wp_31.webp",
+                        "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2405086/o_240627151732_wp_49.webp",
                     ]
                 },
                 topInfo: {
                     title: 'Luxury',
-                    text: 'You got to put the past behind you before you can move on.',
-                    notice: '',
+                    text: "宁愿一生孤度 | 也不愿随波逐流",
+                    notice: "急雪乍翻香阁絮, 轻风吹到胆瓶梅, 心字已成灰",
                     github: "",
                     weibo: "",
                     telegram: "",
@@ -647,7 +668,7 @@
                 let readNum = desc.substring(desc.indexOf("(") + 1, desc.indexOf(")")); //阅读量
                 let comNum = desc.substring(desc.lastIndexOf("(") + 1, desc.lastIndexOf(")")); //评论量
                 let bianji = $('.day').find('div.postDesc')[i].firstElementChild.href; //获取编辑链接
-                let url = this.defaluts.topImg.notHomeTopImg[0];
+                let url = this.defaluts.topImg.notHomeTopImg[i%this.defaluts.topImg.notHomeTopImg.length];
                 let html = `<div class="post post-list-thumb post-list-show">` +
                     `  <div class="post-thumb"> <a href="${readMore}"> <img class="lazyload" src="${url}"  data-src="${url}"> </a></div>` +
                     `  <div class="post-content-wrap">` +

@@ -2651,6 +2651,7 @@ header.single-header {
     border-radius: 10px;
     width: 80%;
     margin: 50px auto 30px;
+    text-align: center;
 }
 
 .notice i {
