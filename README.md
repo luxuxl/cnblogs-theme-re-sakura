@@ -114,6 +114,8 @@ $.silence({
 
 3、修改博客园设置中的, 页面定制 CSS 代码, 并勾选禁用模版默认CSS, 由于代码过长, 不放在下面, 请到链接中复制
 
+[CSS 链接](https://raw.githubusercontent.com/luxuxl/cnblogs-themes-re-sakura/main/body.css)
+
 # 折腾党配置法
 
 我将介绍如何安装, 再介绍如何折腾
@@ -135,6 +137,8 @@ $.silence({
 ```
 
 4、修改博客园设置中的, 页面定制 CSS 代码, 并勾选禁用模版默认CSS, 由于代码过长, 不放在下面, 请到链接中复制
+
+[CSS 链接](https://raw.githubusercontent.com/luxuxl/cnblogs-themes-re-sakura/main/body.css)
 
 5、至此, 安装完毕, 别忘记保存
 
