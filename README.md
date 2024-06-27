@@ -57,7 +57,7 @@ css 中修改的内容:
 1、修改博客园设置中的, 博客侧边栏公告, 代码如下
 
 ```html
-<script src="https://blog-static.cnblogs.com/files/blogs/816612/main.js?t=1719496790"></script>
+<script src="https://blog-static.cnblogs.com/files/blogs/816612/main.js?t=1719499568"></script>
 <script type="text/javascript">
 $.silence({
 });
@@ -67,7 +67,7 @@ $.silence({
 2、修改 `$.silence({ });` 中的配置, 主要是 author、avatar、home, 其他请参考下方
 
 ```html
-<script src="https://blog-static.cnblogs.com/files/blogs/816612/main.js?t=1719496790"></script>
+<script src="https://blog-static.cnblogs.com/files/blogs/816612/main.js?t=1719499568"></script>
 <script type="text/javascript">
 $.silence({
     profile: {

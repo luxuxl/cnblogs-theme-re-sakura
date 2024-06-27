@@ -406,21 +406,21 @@
         buildPostSponsor() {
             const sponsor = this.defaluts.sponsor;
             const that = this;
-            if (!sponsor.enable) {
-                return;
+            if (sponsor.enable) {
+                $('#blog_post_info_block').prepend(`
+                    <div class="esa-sponsor">
+                        <div class="text tr3">Sponsor</div>
+                        <ul class="box posa tr3">
+                            <li class="paypal">PayPal</li>
+                            <li class="alipay">AliPay</li>
+                            <li class="wechat">WeChat</li>
+                        </ul>
+                        <div id="QRBox" class="posa left-100">
+                            <div id="MainBox"></div>
+                        </div>
+                    </div>`);
             }
-            $('#blog_post_info').prepend(`
-            <div class="esa-sponsor">
-                <div class="text tr3">Sponsor</div>
-                <ul class="box posa tr3">
-                    <li class="paypal">PayPal</li>
-                    <li class="alipay">AliPay</li>
-                    <li class="wechat">WeChat</li>
-                </ul>
-                <div id="QRBox" class="posa left-100">
-                    <div id="MainBox"></div>
-                </div>
-            </div>`);
+            
 
             const $sponsor = $('.esa-sponsor');
             const QRBox = $('#QRBox');
