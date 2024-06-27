@@ -411,7 +411,7 @@
             }
             $('#blog_post_info').prepend(`
             <div class="esa-sponsor">
-                <div class="text tr3">${sponsor.text || 'Sponsor'}</div>
+                <div class="text tr3">Sponsor</div>
                 <ul class="box posa tr3">
                     <li class="paypal">PayPal</li>
                     <li class="alipay">AliPay</li>
