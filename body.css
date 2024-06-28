@@ -2645,11 +2645,12 @@ header.single-header {
 /*notice*/
 .notice {
     padding: 20px 20px 20px 20px;
-    border: 1px dashed #e6e6e6;
+    border: 2px dashed #c6c6c6;
     color: #969696;
     background: #fbfbfb50;
     border-radius: 10px;
     width: 80%;
+    max-width: 800px;
     margin: 50px auto 30px;
     text-align: center;
 }
