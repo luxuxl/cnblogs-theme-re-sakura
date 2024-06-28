@@ -10,7 +10,7 @@
 
 ## 改动的内容
 
-main.js 中删除的内容: (按照视觉的从上到下顺序, 后面是存在于哪个函数)
+### main.js 中删除的内容: (按照视觉的从上到下顺序, 后面是存在于哪个函数)
 
 1. Github 左上角标 - buildGithubCorner()
 2. 离开页面改变标题 - getMainMode()
@@ -20,19 +20,20 @@ main.js 中删除的内容: (按照视觉的从上到下顺序, 后面是存在�
 6. 顶部滚动进度条 - scrollDy() & getScrollTop() & getScrollHeight() & getWindowHeight()
 7. 全屏显示的, 回到顶部的小绳子 - buildCustomElements()
 8. 文章下方的 推荐 收藏 反对 - buildPostFavoriteBtn()
-9. 最下方的 Copyright...Powered by..., 已经错位, 可以自行美化 - buildCopyright()
-10. 工具栏, 只看到最下面的 "捕获"? - buildToolbar()
-11. *添加标签icon (原作者注释, 不知道具体是哪里的 icon) - buildCustomElements()
-12. *Build a tags button on navbar (原作者注释, 可能是 topbar 的标签) - buildCustomElements()
-13. *构建博主信息, 主页能搜到该元素, 但是看不见 - buildBloggerProfile()
+9. 删除了几个社交媒体 icon
+10. 最下方的 Copyright...Powered by..., 已经错位, 可以自行美化 - buildCopyright()
+11. 工具栏, 只看到最下面的 "捕获"? - buildToolbar()
+12. *添加标签icon (原作者注释, 不知道具体是哪里的 icon) - buildCustomElements()
+13. *Build a tags button on navbar (原作者注释, 可能是 topbar 的标签) - buildCustomElements()
+14. *构建博主信息, 主页能搜到该元素, 但是看不见 - buildBloggerProfile()
 
-main.js 中修改的内容: 
+### main.js 中修改的内容: 
 1. 个人信息, 这个肯定得改, avatar 是头像 url, favicon 是不知道 - constructor()
 2. 修改 goIntoReadingMode() 和 goIntoNormalMode(), 这两个作用就是自动显示或隐藏顶部栏, 名字取得啥玩意??, 分别改成了 alwaysShowTopBar() 和 autoHideTopBar()
 3. 移除顶部栏默认的选项, 设置自定义选项 - buildCustomElements()
 4. 文章页作者信息, 变成获取 this.defaluts.profile 中的变量信息, 本来写死了原作者的主页 - constructor() & postHeader() 
 
-css 中修改的内容: 
+### css 中修改的内容: 
 1. 光标, 恢复正常
 2. 滚动条, 恢复正常
 3. 宽度始终多出一点, 导致横向滚动条始终显示, 我真不知道怎么写出来的?? 已修复
@@ -57,7 +58,7 @@ css 中修改的内容:
 1、修改博客园设置中的, 博客侧边栏公告, 代码如下
 
 ```html
-<script src="https://blog-static.cnblogs.com/files/blogs/816612/main.js?t=1719505284"></script>
+<script src="https://blog-static.cnblogs.com/files/blogs/816612/main.js?t=1719538699"></script>
 <script type="text/javascript">
 $.silence({
 });
@@ -67,7 +68,7 @@ $.silence({
 2、修改 `$.silence({ });` 中的配置, 主要是 author、avatar、home, 其他请参考下方
 
 ```html
-<script src="https://blog-static.cnblogs.com/files/blogs/816612/main.js?t=1719505284"></script>
+<script src="https://blog-static.cnblogs.com/files/blogs/816612/main.js?t=1719538699"></script>
 <script type="text/javascript">
 $.silence({
     profile: {

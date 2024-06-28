@@ -8,9 +8,10 @@
 // 5. 顶部工具栏的子标签 - buildCustomElements()
 // 6. 顶部滚动进度条 - scrollDy() & getScrollTop() & getScrollHeight() & getWindowHeight()
 // 7. 全屏显示的, 回到顶部的小绳子 - buildCustomElements()
-// 8. 文章下方的 推荐 收藏 反对 - buildPostFavoriteBtn()
-// 9. 最下方的 Copyright...Powered by..., 已经错位, 可以自行美化 - buildCopyright()
-// 10. 工具栏, 只看到最下面的 "捕获"? - buildToolbar()
+// 8. 删除了几个社交媒体 icon
+// 9. 文章下方的 推荐 收藏 反对 - buildPostFavoriteBtn()
+// 10. 最下方的 Copyright...Powered by..., 已经错位, 可以自行美化 - buildCopyright()
+// 11. 工具栏, 只看到最下面的 "捕获"? - buildToolbar()
 // ?. 添加标签icon (原作者注释, 不知道具体是什么) - buildCustomElements()
 // ?. Build a tags button on navbar (原作者注释, 不知道具体是什么) - buildCustomElements()
 // ?. 构建博主信息, 主页能搜到该元素, 但是看不见 - buildBloggerProfile()
@@ -96,12 +97,15 @@
                     text: "宁愿一生孤度 | 也不愿随波逐流",
                     notice: "急雪乍翻香阁絮, 轻风吹到胆瓶梅, 心字已成灰",
                     github: "",
+                    github_icon: "https://images.cnblogs.com/cnblogs_com/blogs/816612/galleries/2406643/o_240628012622_github32.png",
                     weibo: "",
+                    weibo_icon: "https://img2018.cnblogs.com/blog/1646268/201908/1646268-20190808095623418-1617766229.png",
                     telegram: "",
+                    telegram_icon: "https://img2018.cnblogs.com/blog/1646268/201908/1646268-20190808095628401-835828752.png",
                     music: "",
-                    twitter: "",
-                    zhihu: "",
+                    music_icon: "https://img2018.cnblogs.com/blog/1646268/201908/1646268-20190808095640330-1209750721.png",
                     mail: "",
+                    mail_icon: "https://img2018.cnblogs.com/blog/1646268/201908/1646268-20190808095613956-1350546638.png",
                 }
             };
         }
@@ -540,13 +544,10 @@
                 `       <div class="header-info"><p><i class="fa fa-quote-left"></i> ${config.text} <i class="fa fa-quote-right"></i></p>` +
                 `           <div class="top-social_v2">` +
                 `              <li id="bg-pre"><img class="flipx" src="https://img2018.cnblogs.com/blog/1646268/201908/1646268-20190808103709869-648245711.png"></li>` +
-                `              <li><a href="${config.github}" target="_blank" class="social-github" title="github"><img src="https://img2018.cnblogs.com/blog/1646268/201908/1646268-20190808095618459-218538626.png"></a></li>` +
-                `              <li><a href="${config.weibo}" target="_blank" class="social-sina" title="sina"><img src="https://img2018.cnblogs.com/blog/1646268/201908/1646268-20190808095623418-1617766229.png"></a></li>` +
-                `              <li><a href="${config.telegram}" target="_blank" class="social-lofter" title="telegram"><img src="https://img2018.cnblogs.com/blog/1646268/201908/1646268-20190808095628401-835828752.png"></a></li>` +
-                `              <li><a href="${config.music}" target="_blank" class="social-wangyiyun" title="CloudMusic"><img src="https://img2018.cnblogs.com/blog/1646268/201908/1646268-20190808095640330-1209750721.png"></a></li>` +
-                `              <li><a href="${config.twitter}" target="_blank" class="social-wangyiyun" title="Twitter"><img src="https://img2018.cnblogs.com/blog/1646268/201908/1646268-20190808095635213-701885869.png"></a></li>` +
-                `              <li><a href="${config.zhihu}" target="_blank" class="social-wangyiyun" title="Zhihu"><img src="https://img2018.cnblogs.com/blog/1646268/201908/1646268-20190808095650119-1882504549.png"></a></li>` +
-                `              <li><a href="${config.mail}" target="_blank" class="social-wangyiyun" title="E-mail"><img src="https://img2018.cnblogs.com/blog/1646268/201908/1646268-20190808095613956-1350546638.png"></a></li>` +
+                `              <li><a href="${config.github}" target="_blank" class="social-github" title="github"><img src="${config.github_icon}"></a></li>` +
+                `              <li><a href="${config.telegram}" target="_blank" class="social-lofter" title="telegram"><img src="${config.telegram_icon}"></a></li>` +
+                `              <li><a href="${config.music}" target="_blank" class="social-wangyiyun" title="CloudMusic"><img src="${config.music_icon}"></a></li>` +
+                `              <li><a href="${config.mail}" target="_blank" class="social-wangyiyun" title="E-mail"><img src="${config.mail_icon}"></a></li>` +
                 `              <li id="bg-next"><img src="https://img2018.cnblogs.com/blog/1646268/201908/1646268-20190808103709869-648245711.png"></li>` +
                 `           </div>` +
                 `      </div>` +
