@@ -2664,7 +2664,7 @@ header.single-header {
     color: #969696;
     background: #fbfbfb50;
     border-radius: 10px;
-    width: 80%;
+    max-width: 800px;
     margin: 50px auto 30px;
     text-align: center;
 }
