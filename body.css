@@ -29,7 +29,7 @@ body:before {
 a {
     color: #61687C;
     text-decoration: none;
-    transition: all .2s ease !important
+    transition: all .2s ease !important;
 }
 
 a:hover {
@@ -92,7 +92,7 @@ a:hover {
     height: 75px;
     z-index: 999;
     opacity: 0;
-    transition: all .4s ease;
+    transition: all .2s ease;
 }
 
 #header #blogTitle {
@@ -121,7 +121,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     margin: 0;
-    transition: all .4s ease;
+    transition: all .2s ease;
 }
 
 #header #navList li {
@@ -147,7 +147,7 @@ a:hover {
     position: absolute;
     left: 50%;
     bottom: 0;
-    transition: 1s
+    transition: all .2s ease;
 }
 
 #navList .fa,
@@ -574,11 +574,18 @@ a:hover {
     fill: #FFC6DE;
 }
 
+/* 隐藏底部推荐 */
+
+#blog_post_info {
+    display: none;
+}
+
 #footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 40px;
     font-weight: 300;
     z-index: 9999;
 }
@@ -2645,12 +2652,11 @@ header.single-header {
 /*notice*/
 .notice {
     padding: 20px 20px 20px 20px;
-    border: 2px dashed #c6c6c6;
+    border: 1px dashed #e6e6e6;
     color: #969696;
     background: #fbfbfb50;
     border-radius: 10px;
     width: 80%;
-    max-width: 800px;
     margin: 50px auto 30px;
     text-align: center;
 }
@@ -3052,15 +3058,7 @@ header.single-header {
     }
 }
 
-/* 重写播放器滚动字条样式（颜色太深，与博客正文会有冲突） */
-.aplayer .aplayer-lrc p {
-    font-weight: 600 !important;
-}
-
-.aplayer .aplayer-lrc p.aplayer-lrc-current {
-    opacity: 0.3 !important;
-}
-
+/* 重写播放器滚动歌词样式, 增加透明度*/
 .aplayer .aplayer-lrc p.aplayer-lrc-current {
     opacity: 0.4 !important;
 }
