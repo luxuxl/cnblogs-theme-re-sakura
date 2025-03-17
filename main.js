@@ -172,7 +172,7 @@
             $("#navList").append(`<li><a id="blog_nav_myhome" class="menu" href="${profile.home}">主页</a><i></i></li>`);
             $("#navList").append(`<li><a id="blog_nav_myhome" class="menu" href="https://i.cnblogs.com/posts">管理</a><i></i></li>`);
             // $("#navList").append(`<li><a id="blog_nav_mycategory" class="menu" href="${profile.home + 'post-categories'}">分类</a><i></i></li>`);
-            $("#navList").append(`<li><a id="blog_nav_mycategory" class="menu" href="${profile.home + 'tag'}">分类</a><i></i></li>`);
+            $("#navList").append(`<li><a id="blog_nav_mycategory" class="menu" href="${profile.home + 'tag'}">标签</a><i></i></li>`);
             $("#navList").append(`<li><a id="blog_nav_mygallery" class="menu" href="${profile.photos}">相册</a><i></i></li>`);
         }
 
