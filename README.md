@@ -58,7 +58,7 @@
 1、修改博客园设置中的, 博客侧边栏公告, 代码如下
 
 ```html
-<script src="https://blog-static.cnblogs.com/files/blogs/816612/main.js?t=1719538699"></script>
+<script src="https://blog-static.cnblogs.com/files/blogs/816612/main.js"></script>
 <script type="text/javascript">
 $.silence({
 });
