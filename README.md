@@ -65,7 +65,7 @@ $.silence({
 </script>
 ```
 
-2、修改 `$.silence({ });` 中的配置, 主要是 author、avatar、home, 其他请参考下方
+2、向 `$.silence({ });` 中添加配置, 主要是 author、avatar、home, 其他请参考下方
 
 ```html
 <script src="https://blog-static.cnblogs.com/files/blogs/816612/main.js?t=1719538699"></script>
