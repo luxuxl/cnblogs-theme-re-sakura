@@ -1,3 +1,8 @@
+:root {
+    --main-color: red;
+    --secondary-color: red;
+}
+
 body {
     background: #f0f0f0;
     color: #314659;
@@ -26,14 +31,16 @@ body:before {
     box-sizing: border-box;
 }
 
+/* 主要是修改导航栏标签的色彩 */
 a {
-    color: #61687C;
+    color: #61687c;
     text-decoration: none;
     transition: all .2s ease !important;
 }
 
+/* 修改所有 a 标签 hover 的色彩 */
 a:hover {
-    color: #FE9600 !important;
+    color: var(--secondary-color) !important;
     text-decoration: none !important
 }
 
@@ -101,10 +108,10 @@ a:hover {
 
 #header #blogTitle h1 {
     font-size: 34px;
-    font-family: Georgia;
+    font-weight: normal;
     width: auto;
     margin-left: 25px;
-    margin-top: -4px;
+    margin-top: -9px;
 }
 
 #header #navigator {
@@ -122,6 +129,7 @@ a:hover {
     justify-content: center;
     margin: 0;
     transition: all .2s ease;
+    font-weight: normal;
 }
 
 #header #navList li {
@@ -142,7 +150,7 @@ a:hover {
 #header #navList li i {
     width: 0;
     height: 4px;
-    background-color: #FE9600;
+    background-color: var(--main-color);
     content: "";
     position: absolute;
     left: 50%;
@@ -368,13 +376,13 @@ a:hover {
 .post .postBody a:active,
 .post .postBody a:link,
 .post .postBody a:visited {
-    color: #e67474;
+    color: var(--main-color);
     position: relative;
     text-decoration: none;
 }
 
 .post .postBody a:hover {
-    color: orange;
+    color: var(--secondary-color);
     text-decoration: none
 }
 
@@ -386,7 +394,7 @@ a:hover {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: orange;
+    background-color: var(--secondary-color);
     transform-origin: bottom right;
     transition: transform .25s ease-out
 }
@@ -420,7 +428,7 @@ a:hover {
     border-left: none;
     border-right: none;
     border-top: none;
-    border-bottom: 1px solid #EEF2F8
+    border-bottom: 1px solid #EEF2F8;
 }
 
 .post .postBody blockquote {
@@ -430,22 +438,22 @@ a:hover {
     padding: 0 0 0 10px;
     min-height: 20px;
     background: 0 0;
-    border-left: 4px solid #FFC6DE
+    border-left: 4px solid var(--main-color);
 }
 
 .post .postBody em {
-    padding-right: 3px
+    padding-right: 3px;
 }
 
 .post .postBody strong {
-    margin: 0 3px
+    margin: 0 3px;
 }
 
 .post .postBody img {
     max-width: 930px !important;
     display: block;
     margin: 30px auto;
-    border-radius: 3px
+    border-radius: 3px;
 }
 
 .post .postBody ol li,
@@ -496,7 +504,7 @@ a:hover {
 }
 
 .post .postBody #EntryTag a {
-    color: #FE9600
+    color: var(--main-color)
 }
 
 .post .postBody #post_next_prev {
@@ -592,7 +600,7 @@ a:hover {
 
 #footer:after {
     content: '❤';
-    color: #ef6b6b;
+    color: var(--main-color);
     font-size: 16px
 }
 
@@ -632,8 +640,8 @@ a:hover {
 }
 
 #taglist_main table tr td a:hover {
-    color: #FE9600 !important;
-    border: 1px solid #FE9600;
+    color: var(--main-color) !important;
+    border: 1px solid var(--main-color);
     text-decoration: none
 }
 
@@ -671,14 +679,14 @@ a:hover {
 
 #nav_next_page a:hover,
 .pager a:hover {
-    color: #FE9600;
-    border: 1px solid #FE9600
+    color: var(--main-color);
+    border: 1px solid var(--main-color)
 }
 
 .pager span.current {
-    color: #FE9600;
+    color: var(--main-color);
     padding: 3px 7px;
-    border: 1px solid #FE9600;
+    border: 1px solid var(--main-color);
     border-radius: 4px;
     font-family: Monospaced Number;
     margin: 0 3px;
@@ -731,15 +739,15 @@ a:hover {
     left: -60px;
     top: 15px;
     display: none;
-    color: #FE9600;
+    color: var(--main-color);
     font-size: 12px
 }
 
 .esa-toolbar .esa-toolbar-contents:hover,
 .esa-toolbar .esa-toolbar-follow:hover,
 .esa-toolbar .esa-toolbar-gotop:hover {
-    color: #FE9600;
-    border-color: #FE9600
+    color: var(--main-color);
+    border-color: var(--main-color)
 }
 
 .esa-toolbar .esa-toolbar-gotop {
@@ -828,8 +836,8 @@ a:hover {
 }
 
 .esa-follow-button:hover {
-    color: #FE9600;
-    border-color: #FE9600;
+    color: var(--main-color);
+    border-color: var(--main-color);
     background-color: #fff
 }
 
@@ -922,7 +930,7 @@ a:hover {
 }
 
 .esa-catalog-contents ul li a:hover {
-    color: #FE9600;
+    color: var(--main-color);
     text-decoration: none
 }
 
@@ -957,13 +965,13 @@ a:hover {
     position: relative;
     border-bottom-right-radius: 2px;
     border-top-right-radius: 2px;
-    border-left-color: #FE9600;
+    border-left-color: var(--main-color) !important;
     z-index: 1
 }
 
 .esa-post-signature:before {
     content: "!";
-    background-color: #FE9600;
+    background-color: var(--main-color);
     position: absolute;
     top: 25px;
     left: -12px;
@@ -1043,7 +1051,7 @@ a:hover {
     width: 200px;
     height: 200px;
     padding: 10px;
-    border: 2px solid #FE9600;
+    border: 2px solid var(--main-color);
     border-radius: 10px;
     margin: 10px
 }
@@ -1088,12 +1096,12 @@ a:hover {
 
 .esa-reward-close:hover {
     transition: all .2s;
-    color: #FE9600
+    color: var(--main-color)
 }
 
 .esa-reward-close:active {
     transition: all .2s;
-    color: #FE9600
+    color: var(--main-color)
 }
 
 #div_digg {
@@ -1213,7 +1221,7 @@ a:hover {
 }
 
 .feedbackItem .louzhu {
-    background: #FE9600 !important;
+    background: var(--main-color) !important;
     color: #fff;
     border-radius: 2px;
     margin: 0 2px;
@@ -1225,7 +1233,7 @@ a:hover {
 }
 
 .feedbackItem .comment_quote {
-    border: 1px dashed #FE9600;
+    border: 1px dashed var(--main-color);
     border-radius: 3px
 }
 
@@ -1274,7 +1282,7 @@ a:hover {
 }
 
 .feedbackCon .blog_comment_body a {
-    color: #FE9600
+    color: var(--main-color)
 }
 
 .feedbackCon .blog_comment_body img {
@@ -1341,7 +1349,7 @@ a:hover {
 
 .commentform .comment_textarea:hover,
 .commentform .comment_textarea:focus {
-    border-color: #FE9600;
+    border-color: var(--main-color);
     position: relative;
     background: url(https://img2018.cnblogs.com/blog/1646268/201907/1646268-20190719134948147-1816156553.png) right -6px top;
     background-size: 200px;
@@ -1358,8 +1366,8 @@ a:hover {
     border-width: 0;
     cursor: pointer;
     color: #fff;
-    background-color: #FE9600;
-    border-color: #FE9600;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
     user-select: none;
     padding: 5px 20px;
     font-size: 12px;
@@ -1414,7 +1422,7 @@ a:hover {
 
 ::-moz-selection,
 ::selection {
-    color: #FE9600
+    color: var(--main-color)
 }
 
 @keyframes fadeIn {
@@ -2812,7 +2820,7 @@ header.single-header {
     position: fixed;
     top: 0;
     height: 3px;
-    background: orange;
+    background: var(--main-color);
     transiton-property: width, background;
     transition-duration: 1s, 1s;
     z-index: 99999;
